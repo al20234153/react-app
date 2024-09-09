@@ -1,0 +1,194 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.profile-container, .notes-container {
+  max-width: 600px;
+  overflow-wrap: break-word;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #046267;  
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #046267;  
+}
+
+p {
+  color: #046267;
+}
+
+input[type="text"], input[type="email"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #046267;
+  max-width: 200px;
+  width: 200px;
+  overflow-wrap: break-word;  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  max-width: 400px;
+  width: 400px;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  box-sizing: content-box;
+  height: 200px;
+  min-height: 200px;
+  max-height: fit-content; 
+  resize: vertical; 
+}
+
+form textarea[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #046267;
+  max-width: 400px;
+  width: 400px;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+  white-space: pre-wrap;  
+}
+
+button {
+  background-color: #046267;
+  border: 1px solid #034145;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  max-height: fit-content;
+  height: fit-content;
+}
+
+button:hover {
+  background-color: #43bbc2;
+}
+
+li {  
+  display: flex;
+  flex-direction: column;  
+  text-align: left;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #046267;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+}
+
+li span {
+  overflow-wrap: break-word;
+  word-break: keep-all;
+  white-space: pre-wrap;  
+}
+
+li div.edit  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;  
+}
+
+li div.edit textarea[type="text"] {
+  position: relative;
+  max-width: 400px;
+  width: 400px;
+  height: fit-content; 
+  min-height: fit-content;
+  max-height: fit-content;
+  box-sizing: content-box;
+  resize: vertical;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #046267;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+  white-space: pre-wrap;
+}
+
+li div.buttons {  
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: right;
+}
+
+div.buttons button {
+  width: 80px;
+}
+
+form div.add-note-buttons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+div.add-note-buttons button {
+  width: 100px;
+}
+
+ol {
+  list-style: none;
+  padding: 0;  
+}
+
+div.navBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #046267;
+  border: 1px solid #034145;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+div.navBarText {
+  color: #fff;
+  text-decoration: none;  
+}
+
+div.navBarText:hover {
+  color: #94dbdf;
+  text-decoration: none;  
+}
+
+a {
+  text-decoration: none;
+}
